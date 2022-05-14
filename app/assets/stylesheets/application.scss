@@ -16,6 +16,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 // NavStyles
 .navbar-default .navbar-brand, 
@@ -28,17 +29,18 @@
 }
 
 .navbar {
-  background:#0F2027;
+  background:#2C5364;
   border:none;
+  padding:5px;
 }
 
 // Home Page Styles
 .home-callout {
-  background:#2C5364;
+  background:#203A43;
   color:#fff;
   margin-top: -20px;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 // Typocrafy Style

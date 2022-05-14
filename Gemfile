@@ -38,6 +38,10 @@ end
 # Use Twitter Bootsrap liberay for fornt-end UI nd layout
 gem 'bootstrap-sass', '~> 3.4.1'
 
+# Use font-awesome-sass gem for adding icons
+gem 'font-awesome-sass', '~> 6.1.1'
+
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
