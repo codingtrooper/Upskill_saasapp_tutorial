@@ -17,32 +17,31 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+// NavStyles
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a {
   color:#fff;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
-  color:#fff;
-  opacity: 0.75;
+  &:hover {
+    color: #fff;
+    opacity: 0.75;
+  }
 }
 
 .navbar {
-  background:#2C5364;
+  background:#0F2027;
   border:none;
 }
 
-
+// Home Page Styles
 .home-callout {
-  background:#2c4c64;
-}
-
-.home-callout {
+  background:#2C5364;
   color:#fff;
   margin-top: -20px;
   padding-top: 40px;
   padding-bottom: 80px;
 }
 
+// Typocrafy Style
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
