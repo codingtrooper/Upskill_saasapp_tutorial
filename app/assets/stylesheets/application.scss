@@ -17,23 +17,40 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color:#fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+  color:#fff;
+  opacity: 0.75;
+}
+
 .navbar {
+  background:#2C5364;
   border:none;
 }
 
-.navbar, .home-callout {
-  background:#2C5364;
+
+.home-callout {
+  background:#2c4c64;
 }
 
 .home-callout {
   color:#fff;
-  margin-top:-20px;
+  margin-top: -20px;
   padding-top: 40px;
   padding-bottom: 80px;
 }
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size:30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 
