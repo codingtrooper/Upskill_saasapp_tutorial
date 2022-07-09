@@ -44,6 +44,9 @@ gem 'font-awesome-sass', '~> 6.1.1'
 # Use hirb db table display. in console
 gem 'hirb', '~> 0.7.3'
 
+# Use Devise for user authentication
+gem 'devise', '4.4.0'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
